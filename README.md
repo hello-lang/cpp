@@ -1,40 +1,41 @@
-# cpp
-Simple hello world program
+# C++
+Simple "Hello, World!" program in C++.
 
-# dependencies
-cmake, g++ (Linux/Unix), MSVC (Windows)
+# Dependencies
+- **Linux/Unix**: cmake, g++ 
+- **Windows**: MSVC
 
-# building
-### build and run in Linux environment
-```console
+# Build and execute
+### Linux
+```sh
 mkdir build && cd build
 cmake ..
 make
 ```
 
-### build and run in macos
+### MacOS
 same as Linux, except instead of using 
-```console
+```sh
 cmake ..
 ```
 use 
 
-```console
+```sh
 cmake -G "yourXCodeGoesHere" ..
 ```
 
-### build and run in windows
+### Windows
 same as Linux, except instead of using
-```console
+```sh
 cmake ..
 ```
 use
 
-```console
+```sh
 cmake -G "yourMSVCGoesHere" ..
 ```
 
-### manual run
+### Manual run
 inside build dir
 ```console
 ./src/hello_world
