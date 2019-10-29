@@ -1,8 +1,10 @@
 #include <iostream>
-#include <string>
-
-int main(int argc, char * argv[]) {
-	/* const char * s are boring, why not use strings? */
-	std::cout << std::string{"hello world!"} << std::endl;
-	return 0;
+using namespace std;
+int main() {
+    int i, n;
+    cin >> n;
+    for (i=0; i<n; i++) {
+        cout << "hello world\n";
+    }
+    return 0;
 }
